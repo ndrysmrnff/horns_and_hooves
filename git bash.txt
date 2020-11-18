@@ -1,0 +1,91 @@
+﻿
+user@note MINGW32 /c/YandexDisk/Документы/Техникум/ПМ05/horns_and_hooves (master)
+$ cd ~/.ssh
+bash: cd: /c/Users/user/.ssh: No such file or directory
+
+user@note MINGW32 /c/YandexDisk/Документы/Техникум/ПМ05/horns_and_hooves (master)
+$ cd ~
+
+user@note MINGW32 ~
+$ cd ~/.ssh
+bash: cd: /c/Users/user/.ssh: No such file or directory
+
+user@note MINGW32 ~
+$ dir
+AppData
+Application\ Data
+Aptana\ Rubles
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+Music
+NetHood
+ntuser.dat
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.dat{0dd744f1-dc2f-11e9-b53f-2089847bfe63}.TM.blf
+ntuser.dat{0dd744f1-dc2f-11e9-b53f-2089847bfe63}.TMContainer00000000000000000001.regtrans-ms
+ntuser.dat{0dd744f1-dc2f-11e9-b53f-2089847bfe63}.TMContainer00000000000000000002.regtrans-ms
+NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf
+NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+Pictures
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+source
+Videos
+VirtualBox\ VMs
+vpworkspace
+YandexDisk
+Главное\ меню
+Мои\ документы
+Шаблоны
+
+user@note MINGW32 ~
+$ ssh-keygen -t rsa -b 4096 -C "ndrysmrnff@yandex.ru"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/user/.ssh/id_rsa):
+Created directory '/c/Users/user/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/user/.ssh/id_rsa.
+Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:hVZ9H2AhxW7EU37EM2cWBwoVKfZzeAEhS0euviuhUJs ndrysmrnff@yandex.ru
+The key's randomart image is:
++---[RSA 4096]----+
+|          ==@X==+|
+|         +o*=*+=*|
+|        o.oo=o.**|
+|      .. . .+oo o|
+|     . oS . .+   |
+|    . E ..       |
+|     . . ..      |
+|      . .  .     |
+|         .o.     |
++----[SHA256]-----+
+
+user@note MINGW32 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 1436
+
+user@note MINGW32 ~
+$ ssh-add /c/Users/user/.ssh/id_rsa
+Identity added: /c/Users/user/.ssh/id_rsa (ndrysmrnff@yandex.ru)
+
+user@note MINGW32 ~
+$ clip .
+▒▒▒▒▒▒: ▒▒▒ࠢ▒▒▒▒ ▒▒ࠬ▒▒▒ ▒▒▒ ▒▒㬥▒▒ - '.'.
+▒▒▒▒▒▒ "CLIP /?" ▒▒▒ ▒▒▒▒祭▒▒ ▒ࠢ▒▒ ▒▒ ▒ᯮ▒짮▒▒▒▒▒.
+
+user@note MINGW32 ~
+$
